@@ -15,3 +15,5 @@ Decode [UriBeacon URI's](https://github.com/google/uribeacon/blob/master/specifi
     
     var uri = uriBeaconDecode(encodedUriBuffer);
     console.log('Decoded URI: ' + uri);
+
+This module is supposed to be used in conjunction with the [`noble` package](https://github.com/sandeepmistry/noble).
