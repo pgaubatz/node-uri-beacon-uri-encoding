@@ -1,0 +1,24 @@
+{
+  "name": "uri-beacon-decode",
+  "version": "1.0.0",
+  "description": "Decodes UriBeacon URI's",
+  "main": "index.js",
+  "author": "Patrick Gaubatz <patrick@gaubatz.at>",
+  "repository": "pgaubatz/node-uri-beacon-decode",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report html -- -R spec"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "uri-beacon": "https://github.com/pgaubatz/node-uri-beacon"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  }
+}

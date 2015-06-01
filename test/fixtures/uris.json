@@ -1,0 +1,10 @@
+[
+  "urn:uuid:b1e13d51-5fc9-4d5b-902b-ab668dd54981",
+  "http://google.com",
+  "http://localhost/com",
+  "http://localhost/.com",
+  "http://localhost:8080/.com",
+  "http://google.com:8080/.com",
+  "http://localhost/xyz.com",
+  "http://bit.ly/1tGYKCV"
+]
