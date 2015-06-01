@@ -16,7 +16,7 @@
   "devDependencies": {
     "chai": "^2.3.0",
     "mocha": "^2.2.4",
-    "uri-beacon": "https://github.com/pgaubatz/node-uri-beacon"
+    "uri-beacon": "pgaubatz/node-uri-beacon"
   },
   "dependencies": {
     "node-uuid": "^1.4.3"
