@@ -6,5 +6,9 @@
   "http://localhost:8080/.com",
   "http://google.com:8080/.com",
   "http://localhost/xyz.com",
-  "http://bit.ly/1tGYKCV"
+  "http://bit.ly/1tGYKCV",
+  "sms:2153581780",
+  "tel:+1-215-555-1212",
+  "mailto:foo@example.com",
+  "geo:40.134327,-75.205673"
 ]
