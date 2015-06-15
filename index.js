@@ -1,3 +1,6 @@
 'use strict';
 
-module.exports = require('./lib/decode.js');
+module.exports = {
+  decode: require('./lib/decode.js'),
+  encode: require('./lib/encode.js')
+};
