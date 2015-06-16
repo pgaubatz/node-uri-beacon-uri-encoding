@@ -1,10 +1,10 @@
 {
   "name": "uri-beacon-uri-encoding",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Encode and decode UriBeacon URIs",
   "main": "index.js",
   "author": "Patrick Gaubatz <patrick@gaubatz.at>",
-  "repository": "pgaubatz/node-uri-beacon-decode",
+  "repository": "pgaubatz/node-uri-beacon-uri-encoding",
   "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
