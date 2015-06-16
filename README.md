@@ -1,6 +1,6 @@
 # uri-beacon-uri-encoding
 [![npm version](https://badge.fury.io/js/uri-beacon-uri-encoding.svg)](http://badge.fury.io/js/uri-beacon-uri-encoding)
-[![Build Status](https://travis-ci.org/pgaubatz/node-uri-beacon-uri-encoding)](https://travis-ci.org/pgaubatz/node-uri-beacon-uri-encoding)
+[![Build Status](https://travis-ci.org/pgaubatz/node-uri-beacon-uri-encoding.svg?branch=master)](https://travis-ci.org/pgaubatz/node-uri-beacon-uri-encoding)
 [![Coverage Status](https://coveralls.io/repos/pgaubatz/node-uri-beacon-uri-encoding/badge.svg)](https://coveralls.io/r/pgaubatz/node-uri-beacon-uri-encoding)
 [![Dependency Status](https://david-dm.org/pgaubatz/node-uri-beacon-uri-encoding.svg)](https://david-dm.org/pgaubatz/node-uri-beacon-uri-encoding)
 
