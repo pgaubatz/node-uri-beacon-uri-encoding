@@ -21,4 +21,4 @@ var decoded = encoding.decode(encoded);
 assert.strictEqual(decoded, uri);
 ```
 
-This module is supposed to be used in conjunction with the [`noble` package](https://github.com/sandeepmistry/noble).
+This module is supposed to be used in conjunction with the [`noble` package](https://github.com/sandeepmistry/noble) or the [`bleno` package](https://github.com/sandeepmistry/bleno).
