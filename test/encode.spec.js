@@ -24,6 +24,11 @@ describe('URI Beacon encode()', function () {
     encoded.length.should.equal(15);
   });
 
+  it('should encode URLs and strip trailing slashes', function () {
+    encode('https://www.uribeacon.org/')[10].should.equal(0x08); // '.org' suffix
+    encode('http://1.at/').length.should.equal(1 + 4); // 1 prefix + 4 characters
+  });
+
   it('should encode URNs', function () {
     var encoded = encode('urn:uuid:B1E13D51-5FC9-4D5B-902B-AB668DD54981');
 
