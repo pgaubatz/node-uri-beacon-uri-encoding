@@ -46,4 +46,10 @@ describe('URI Beacon encode()', function () {
       encoded[i].should.equal(val);
     });
   });
+
+  it('should throw a TypeError if something other than a string is provided', function () {
+    [123, {}, false].forEach(function (value) {
+      encode.bind(encode, value).should.throw(TypeError);
+    });
+  });
 });
