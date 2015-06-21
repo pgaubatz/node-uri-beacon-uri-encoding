@@ -52,4 +52,8 @@ describe('URI Beacon encode()', function () {
       encode.bind(encode, value).should.throw(TypeError);
     });
   });
+
+  it('should throw an Error if the encoded URI is longer than 18 bytes', function () {
+      encode.bind(encode, 'http://this.is.clearly.longer.than.18.bytes').should.throw(Error);
+  });
 });
