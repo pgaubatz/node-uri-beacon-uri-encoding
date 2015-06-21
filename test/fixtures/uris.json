@@ -8,8 +8,8 @@
   "http://localhost/xyz.com",
   "http://bit.ly/1tGYKCV",
   "sms:2153581780",
-  "tel:+1-215-555-1212",
-  "mailto:foo@example.com",
-  "geo:40.134327,-75.205673",
+  "tel:+1-215-555-121",
+  "mailto:foo@bar.com",
+  "geo:40.134,-75.205",
   "wrong://wrong"
 ]
